@@ -1,11 +1,25 @@
 /* Introduction to JavaScript */
+
 //What does console.log() do in JavaScript?
 //Answer: Prints a message to the console.
 
+//Which line prints "Hello, World!" to the console?
 console.log("Hello, World!");
+console("Hello World");
+Console.log("Hello");
+console.log("World");
+
+//Which line prints "Pizza" to the console?
+console.log(Pizza);
 console.log("Pizza");
-console.log("Hi");
-console.log("Sun");
+Console.log("Pizza");
+console("Pizza");
+
+//Complete the line so it prints the text "I love JavaScript".
+console.log("");
+
+//Complete the line so it prints the text "Sun".
+console("Sun");
 
 //What will this code print?
 console.log("cat");
