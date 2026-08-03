@@ -32,7 +32,7 @@ nav {
 	box-shadow: 0 2px rgba(0, 0, 0, 0.1);
 	position: sticky;
 	top: 0;
-	z-index: 1000;
+	z-index: 100vw;
 	border-bottom: 1px solid var(--light);
 }
 
@@ -133,11 +133,40 @@ nav {
 .hero-text {
 	font-size: 1.5rem;
 	margin-bottom: 1rem;
-	color: var(--light);
 }
 
 .hero-image {
 	max-width: 50%;
 	height: auto;
 	margin-top: 1rem;
+}
+/* Outer Wrapper: Fits exact height and width of desktop screen */
+.desktop-wrapper {
+	display: flex;
+	width: 100vw;
+	height: 100vh;
+	padding: 1px;
+	gap: 1px;
+	box-sizing: border-box;
+	background-color: #f8fafc;
+}
+
+/* Flexbox Containers: Stretch to fill available vertical and horizontal space */
+.flex-box {
+	flex: 1; /* Both take equal 50% width */
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+	padding: 24px;
+	border-radius: 12px;
+	border: 1px solid #e2e8f0;
+	box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+}
+
+.box-1 {
+	background-color: #ffffff;
+}
+
+.box-2 {
+	background-color: #ffffff;
 }
