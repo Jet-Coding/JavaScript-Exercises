@@ -12,7 +12,7 @@
 	--lightdark: #ddd;
 	--dark: #1a202c;
 	--lightgreen: #b5e7a0;
-	--green: #018f48;
+	--logo: #efff5d;
 }
 
 body {
@@ -71,12 +71,12 @@ nav {
 }
 
 .nav-links a:hover .nav-links a.active {
-	color: var(--green);
+	color: var(--logo);
 }
 
 .cta-button {
-	background: var(--primary);
-	color: var(--light);
+	background: var(--logo);
+	color: var(--dark);
 	padding: 0.75rem 1.5rem;
 	border: none;
 	border-radius: 5px;
