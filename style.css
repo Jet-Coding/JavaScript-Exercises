@@ -6,7 +6,7 @@
 }
 
 :root {
-	--primary: #004d26;
+	--bg-color: #0f172a;
 	--secondary: #ed8936;
 	--light: #f7fafc;
 	--lightdark: #ddd;
@@ -17,14 +17,14 @@
 
 body {
 	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-	background: var(--dark);
+	background: var(--bg-color);
 	line-height: 1.6;
 	overflow-x: hidden;
 }
 
 /* Navigation */
 nav {
-	background: var(--dark);
+	background: var(--bg-color);
 	padding: 0.5rem 2%;
 	display: flex;
 	justify-content: space-between;
@@ -70,13 +70,14 @@ nav {
 	transition: color 0.3s ease;
 }
 
-.nav-links a:hover .nav-links a.active {
+.nav-links a:active,
+.nav-links a:hover {
 	color: var(--logo);
 }
 
 .cta-button {
 	background: var(--logo);
-	color: var(--dark);
+	color: var(--bg-color);
 	padding: 0.75rem 1.5rem;
 	border: none;
 	border-radius: 5px;
@@ -96,7 +97,7 @@ nav {
 .menu-icon {
 	display: none;
 	cursor: pointer;
-	color: var(--primary);
+	color: var(--bg-color);
 	font-size: 2.5rem;
 	padding: 5px;
 	transition: transform 0.3s ease;
@@ -171,8 +172,31 @@ nav {
 	background-color: #ffffff;
 }
 
-@media (max-width: 767px) {
+/* Mobile size */
+/* @media (max-width: 767px) {
 	.hero {
-		
+		padding: 10px;
 	}
 }
+
+/* Tablet size */
+/* @media (min-width: 768px) and (max-width: 1023px) {
+	.hero {
+		padding: 20px;
+	}
+}
+
+/* Desktop size */
+/* @media (min-width: 1024px) and (max-width: 1439px) {
+	.hero {
+		padding: 30px;
+	}
+}
+
+/* Extra Large size */
+/* @media (min-width: 1440px) {
+	.hero {
+		padding: 40px;
+	}
+}
+*/
