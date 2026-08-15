@@ -1,4 +1,5 @@
 /* Variables */
+//Changing a value
 
 //What does a variable do in JavaScript?
 //Answer: It Store a value to use later.

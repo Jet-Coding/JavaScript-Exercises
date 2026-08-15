@@ -1,4 +1,5 @@
 /* Comments */
+//Boss: Hero status screen
 
 //What does a JavaScript comment do?
 //Answer: It helps describe code for people reading it.

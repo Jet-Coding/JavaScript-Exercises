@@ -1,4 +1,5 @@
 /* Comments */
+//Comments review
 
 //What does a JavaScript comment do?
 //Answer: It helps describe code for people reading it.

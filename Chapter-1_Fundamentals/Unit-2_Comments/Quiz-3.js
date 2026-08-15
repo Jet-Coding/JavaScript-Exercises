@@ -1,4 +1,5 @@
 /* Comments */
+//Multi-line comments
 
 //What do /* */ do in JavaScript?
 //Answer: They mark notes across more than one line.

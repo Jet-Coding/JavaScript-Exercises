@@ -1,4 +1,5 @@
 /* Introduction to JavaScript */
+//Showing a Message
 
 //What does console.log() do in JavaScript?
 //Answer: Prints a message to the console.

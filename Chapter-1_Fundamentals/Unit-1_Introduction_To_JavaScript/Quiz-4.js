@@ -1,4 +1,5 @@
 /* Introduction to JavaScript */
+//Output Review
 
 //What do multiple console.log() statements do in JavaScript?
 //Answer: Shows more than one line of output in order.

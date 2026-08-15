@@ -1,4 +1,5 @@
 /* Comments */
+//Comment your code
 
 //What does single line comments with // do in JavaScript?
 //Answer: it discribes the code for the people to read.

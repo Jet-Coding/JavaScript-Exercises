@@ -1,4 +1,5 @@
 /* Comments */
+//Comments dont run
 
 //What does comments do in JavaScript?
 //Answer: JavaScript skips to run it.
